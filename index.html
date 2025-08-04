@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whispering Postman</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Whispering Postman</h1>
+        <!-- Start Screen -->
+        <div id="startScreen">
+            <p>Welcome to the forgotten village of <strong>Perithia</strong> in Ancient Greece. 
+            A kind but forgetful postman named <strong>Iapetus</strong> needs your help to deliver letters 
+            to the right villagers. Each day, you will meet a few villagers and receive mysterious letters 
+            with hints. Can you match them correctly before time runs out?</p>
+            <p><em>Sharpen your memory and help Iapetus bring smiles back to Perithia!</em></p>
+            <button id="startBtn">Start Game</button>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="game" style="display:none;">
+            <p id="dayQuestion"></p>
+            <ul id="villagerList"></ul>
+            <p id="letterHint"></p>
+            <input type="text" id="answerInput" placeholder="Type villager name...">
+            <button id="submitBtn">Submit</button>
+            <button id="skipBtn">Skip</button>
+            <p id="timer">Time Left: 30s</p>
+            <p id="feedback"></p>
+            <p id="score">Score: 0</p>
+        </div>
+
+        <!-- Day End Screen -->
+        <div id="dayEndScreen" style="display:none;">
+            <h2 id="dayEndMessage"></h2>
+            <p id="cumulativeScore"></p>
+            <button id="continueBtn">Continue</button>
+        </div>
+
+        <!-- Final Screen -->
+        <div id="finalScreen" style="display:none;">
+            <h2>Game Over</h2>
+            <p id="finalScore"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: 'EB Garamond', serif;
+    background: url('https://i.imgur.com/xOXyJhn.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #2d1b00;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3em;
+    color: #5c3b1e;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#intro {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+button {
+    margin: 10px;
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #c19a6b;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #a57e55;
+}
+
+#villagers {
+    margin: 20px 0;
+    text-align: left;
+    display: inline-block;
+    padding: 15px;
+    border: 2px solid #c19a6b;
+    border-radius: 10px;
+    background: #fdf6e3;
+}
+
+.villager {
+    padding: 5px 0;
+    font-size: 1.1em;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    border: 2px solid #c19a6b;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#letter {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 15px 0;
+    color: #5c3b1e;
+}
+
+#feedback {
+    margin-top: 15px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#timer {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #b22222;
+}
