@@ -16,7 +16,7 @@ Use the hints to figure out the correct recipients — but be quick, you only ha
 ---
 
 ## 🌐 Play the Game
-👉 **[Play Here](PASTE-YOUR-GITHUB-PAGES-URL-HERE)**  
+👉 **[Play Here] [(https://shrijita23.github.io/Whispering-Postman-Web/)]**  
 
 *(Replace this with your GitHub Pages URL once it's live.)*
 
