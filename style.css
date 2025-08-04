@@ -1,19 +1,19 @@
 body {
     font-family: 'EB Garamond', serif;
-    background: url('https://i.imgur.com/xOXyJhn.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #2d1b00;
+    background-color: #f3e2c7; /* warm parchment tone */
     margin: 0;
     padding: 0;
+    color: #3b2d1f;
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.9);
-    max-width: 800px;
-    margin: 50px auto;
+    background: #fffaf0; /* light ivory for content box */
+    max-width: 700px;
+    margin: 80px auto;
     padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    text-align: center;
 }
 
 h1 {
